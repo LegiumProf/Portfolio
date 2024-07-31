@@ -1,0 +1,27 @@
+.test {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+#image-1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+#image-2 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+button {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+}
+#DIV1 {
+    transition: ;
+}
+.treg {
+    width: 94px;
+    height: 94px;
+}

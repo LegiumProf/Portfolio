@@ -1,0 +1,176 @@
+html,body {
+  margin:0;
+  padding:0;
+  width:100%;
+  overflow-x: hidden;
+  font-family: 'Helvetica Neue';
+  overflow-y: scroll;
+}
+#gradient-canvas {
+  width:100%;
+  height:100vh;
+  position: absolute;
+  min-height: 770px;
+  --gradient-color-1: #635BFF; 
+  --gradient-color-2: #FE343F; 
+  --gradient-color-3: #F7C462;  
+  --gradient-color-4: #90D6FE;
+}
+.portfolio-nav {
+  max-width: 1360px;
+  margin: auto;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  z-index: 100;
+}
+.nav-left {
+  display: flex;
+  flex-direction: row;
+}
+.contact {
+  border: 2px solid white;
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+  position: relative;
+  top: -5px;
+}
+.portfolio-nav a {
+    color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 25px 5% 0 0;
+}
+.logo {
+  width: 250px;
+  height: 28px;
+  margin: 25px 10% 0 0 !important;
+}
+.lab-container {
+    max-width: 1360px;
+    margin: auto;
+    position: relative;
+    top: 60px;
+}
+.iframe-animation {
+    width: 785px;
+    height: 514px;
+    position: relative;
+    z-index: 100;
+    border: none;
+}
+.lab-right {
+    width: 440px;
+    position: relative;
+    z-index: 100;
+    margin-top: 30px;
+}
+.lab-name {
+    font-size: 60px;
+    margin: 0 0 32px 0;
+}
+.lab-description {
+    font-size: 18px;
+    margin: 0;
+}
+.lab-top {
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rectangle {
+    width: 5000px;
+    margin: auto;
+    height: 5000px;
+    background-color: white;
+    position: absolute;
+    top: -140px;
+    clip-path: polygon(0 0, 100% 1100px, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 5000px);
+    z-index: 0;
+}
+.rectangle-container {
+    display: flex;
+    justify-content: center;
+}
+.lab-description {
+    position: relative;
+    z-index: 100;
+    max-width: 1360px;
+    margin: auto;
+}
+.idea {
+    font-size: 60px;
+    margin: 0 0 32px 0;
+}
+.idea-description {
+    font-size: 18px;
+    margin: 0;
+    width: 785px;
+}
+.contact-me-block {
+    position: relative;
+    z-index: 100;
+    margin-top: 200px;
+    height: 250px;
+  }
+  .contact-me-container {
+    max-width: 1360px;
+    margin: auto;
+    position: relative;
+  }
+  .contact-me {
+    margin: auto;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.25);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  .contact-top p {
+    font-size: 60px;
+    margin: 0;
+  }
+  .contact-top span {
+    color: #635BFF;
+  }
+  .contact-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact-bottom p {
+    margin: 0;
+    font-size: 18px;
+  }
+  .contact-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 25px;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
